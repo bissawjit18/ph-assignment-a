@@ -1,0 +1,126 @@
+.header {
+    background-image: url('/resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    margin: 50px 140px 0 140px;
+}
+
+
+.banner-container {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+}
+
+.banner-title {
+    font-size: 32px;
+    font-weight: 400;
+    padding: 177px 495px 0px 430px;
+    margin-left: 93px;
+}
+
+.banner-heading {
+    font-size: 72px;
+    font-weight: 900;
+    width: 632px;
+    height: 190px;
+    padding: 0px 344px 189px 344px;
+}
+
+/* start main section style */
+
+.bonus-title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.bonus-text {
+    color: #F00;
+    margin-top: 48px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.bonus-categories {
+    color: #070211;
+    margin-top: 16px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.bonus-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 48px;
+}
+
+
+/* Victorr style */
+
+.victorr-bg-image {
+    width: 1320px;
+    margin: 120px 140px;
+}
+
+.victorr-content {
+    display: flex;
+}
+
+.victorr-title {}
+
+.victorr-title-description {}
+
+/* footer style  */
+footer {
+    background: #070211;
+    width: 1600px;
+    height: 609px;
+}
+
+.footer-a {
+    display: flex;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.address {
+    width: 375px;
+    height: 80px;
+    padding: 120px 280px 50px 140px;
+}
+
+.phone-link {
+    padding: 120px 291px 90px 280px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-links {
+    /* display: ;
+    justify-content: center;
+    padding-left: 640px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-top: 0%;
+}
