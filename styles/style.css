@@ -1,31 +1,21 @@
-.header {
+.same-margin{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.banner {
+    display: flex;
+    justify-content: center;
     background-image: url('/resources/Banner\ Image.png');
     background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 16px;
-    margin: 50px 140px 0 140px;
+   height: 600px;
+   background-size: cover;
 }
 
 
 .banner-container {
-    color: #FFF;
-    text-align: center;
-    font-family: Merriweather;
-}
-
-.banner-title {
-    font-size: 32px;
-    font-weight: 400;
-    padding: 177px 495px 0px 430px;
-    margin-left: 93px;
-}
-
-.banner-heading {
-    font-size: 72px;
-    font-weight: 900;
-    width: 632px;
-    height: 190px;
-    padding: 0px 344px 189px 344px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
 }
 
 /* start main section style */
@@ -58,38 +48,66 @@
 }
 
 .bonus-photo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin-top: 48px;
-}
-
-
-/* Victorr style */
-
-.victorr-bg-image {
-    width: 1320px;
-    margin: 120px 140px;
-}
-
-.victorr-content {
     display: flex;
+    justify-content: center;
 }
 
-.victorr-title {}
 
-.victorr-title-description {}
+.welcome-banner{
+    background-image: url('/resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    margin: 120px 0;
+}
+
+.v-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.victorr-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+}
+
+.victorr-title-description {
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+}
+/* awesome portfolio styles */
+.awesome-image-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    
+}
+/* newsletter css */
+.newsletter-section{
+    background: rgba(255, 0, 0, 0.05);
+    height: 616px;
+    margin-top: 120px;
+}
+.newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter-box{
+    
+}
 
 /* footer style  */
 footer {
     background: #070211;
-    width: 1600px;
     height: 609px;
+    margin-top: 120px;
 }
 
 .footer-a {
     display: flex;
+    align-items: center;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -109,18 +127,24 @@ footer {
     width: 50%;
 }
 
-.social-links {
-    /* display: ;
+.footer-b {
+    display: flex;
     justify-content: center;
-    padding-left: 640px; */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    gap: 24px;
 }
 
 .icon {
     width: 24px;
     height: 24px;
     margin-top: 0%;
+}
+.footer-c {
+    display: flex;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    margin-top: -75px;
+}
+.unsubscribe{
+    margin-left: 256px;
 }
