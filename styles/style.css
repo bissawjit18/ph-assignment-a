@@ -11,7 +11,7 @@ body {
 .banner {
     display: flex;
     justify-content: center;
-    background-image: url('resources/Banner\ Image.png');
+    background-image: url('resources/Banner-Image.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
