@@ -1,21 +1,40 @@
-.same-margin{
+.same-margin {
     margin-left: 140px;
     margin-right: 140px;
 }
+
 .banner {
     display: flex;
     justify-content: center;
     background-image: url('/resources/Banner\ Image.png');
     background-repeat: no-repeat;
-   height: 600px;
-   background-size: cover;
+    background-size: cover;
+    border-radius: 16px;
+    background: linear-gradient rgba(7, 2, 17, 0.00);
+    width: 1320px;
+    height: 600px;
 }
-
 
 .banner-container {
     justify-content: center;
     align-items: center;
-    margin-top: 300px;
+    margin-top: 177px;
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+}
+
+.banner-heading {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    width: 632px;
 }
 
 /* start main section style */
@@ -53,13 +72,13 @@
 }
 
 
-.welcome-banner{
+.welcome-banner {
     background-image: url('/resources/Vectorrr.png');
     background-repeat: no-repeat;
     margin: 120px 0;
 }
 
-.v-content{
+.v-content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,33 +88,116 @@
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
+    width: 642px;
 }
 
 .victorr-title-description {
     color: rgba(255, 255, 255, 0.80);
-font-family: Inter;
-font-size: 18px;
+    font-family: Inter;
+    font-size: 18px;
+    width: 697px;
 }
+
+.btn-join {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.637);
+    padding: 5px 8px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    word-spacing: 5px;
+
+}
+
+.btn-join:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
 /* awesome portfolio styles */
-.awesome-image-1{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 24px;
-    
+.awesome-title-1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
 }
+
+.awesome-title-2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.awesome-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    margin-top: 22px;
+    width: 896px;
+}
+
+.awesome-image-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    gap: 24px;
+
+}
+
 /* newsletter css */
-.newsletter-section{
+.newsletter-section {
     background: rgba(255, 0, 0, 0.05);
     height: 616px;
     margin-top: 120px;
 }
-.newsletter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.newsletter-box {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+
 }
-.newsletter-box{
-    
+
+.newsletter-emailbox {
+    margin-top: 80px;
+}
+
+.newsletter-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    padding: 0 212px;
+}
+
+.email-style {
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    padding: 25px 477px 25px 30px;
+    border: 0px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+
+.btn-subscribe {
+    color: #FFF;
+    background: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    padding: 24px 56px;
+    border: 0px;
+    margin: -14px;
+    border-radius: 0px 50px 50px 0px;
+
 }
 
 /* footer style  */
@@ -138,6 +240,7 @@ footer {
     height: 24px;
     margin-top: 0%;
 }
+
 .footer-c {
     display: flex;
     color: #FFF;
@@ -145,6 +248,7 @@ footer {
     font-size: 24px;
     margin-top: -75px;
 }
-.unsubscribe{
+
+.unsubscribe {
     margin-left: 256px;
 }
