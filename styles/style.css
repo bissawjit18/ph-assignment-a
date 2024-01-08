@@ -227,10 +227,10 @@ span {
     text-align: center;
     font-family: Inter;
     font-size: 18px;
-    padding: 25px 477px 25px 30px;
+    padding: 25px 361px 24px 04px;
     border: 0px;
-    border-top-left-radius: 35px;
-    border-bottom-left-radius: 35px;
+    border-radius: 35px;
+    margin: -88px;
 }
 
 .btn-subscribe {
@@ -241,7 +241,7 @@ span {
     font-size: 20px;
     padding: 24px 56px;
     border: 0px;
-    margin: -14px;
+    margin: -126px;
     border-radius: 0px 50px 50px 0px;
 
 }
