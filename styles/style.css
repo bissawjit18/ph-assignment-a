@@ -113,12 +113,15 @@
     transition-duration: 0.4s;
     cursor: pointer;
     word-spacing: 5px;
-
 }
 
 .btn-join:hover {
     background-color: #04AA6D;
     color: white;
+}
+
+.victorr-year img{
+    padding: 68px 138px 68px 0px;
 }
 
 /* start section3 styles */
@@ -242,16 +245,20 @@ span {
     color: #070211;
     font-family: Merriweather;
     font-size: 72px;
+    padding-top: 16px;
+    width: 677px;
 }
 
-.holidays-description{
+.holidays-description {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
     font-size: 20px;
+    width: 1068px;
 }
-.last-flex{
-    background-image: url(../resources/Rectangle2.png);
+
+.last-flex {
+    background-image: url('../resources/Rectangle2.png');
     padding-top: 400px;
     display: flex;
     justify-content: space-between;
