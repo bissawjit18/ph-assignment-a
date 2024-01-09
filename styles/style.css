@@ -232,6 +232,8 @@ span {
 }
 
 .last-heading {
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
@@ -245,16 +247,15 @@ span {
     color: #070211;
     font-family: Merriweather;
     font-size: 72px;
-    padding-top: 16px;
-    width: 677px;
+    margin-top: -16px;
 }
 
 .holidays-description {
     color: rgba(7, 2, 17, 0.60);
-    text-align: center;
+    padding: 0px 205px 0px 205px;
+    margin-top: -28px;
     font-family: Inter;
     font-size: 20px;
-    width: 1068px;
 }
 
 .last-flex {
