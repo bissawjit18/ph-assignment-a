@@ -235,6 +235,7 @@ span {
     align-items: center;
     justify-content: center;
     text-align: center;
+   margin-bottom: -1000px;
 }
 
 .functional {
@@ -259,10 +260,25 @@ span {
 }
 
 .last-flex {
-    background-image: url('../resources/Rectangle2.png');
+    /* background-image: url('../resources/Rectangle2.png');
     padding-top: 400px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; */
+}
+.last1{
+    position:relative;
+    bottom: -950px;
+    /* left: 890px; */
+}
+.last2{
+    position:relative;
+    bottom: -400px;
+    left: 690px;
+}
+.last3{
+    position:relative;
+    bottom: -5px;
+    left: 890px;
 }
 
 
